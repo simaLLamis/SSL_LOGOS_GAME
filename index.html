@@ -79,7 +79,12 @@
       text-shadow: none;
       transform: scale(1.05);
     }
-
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
     img.logo {
       max-width: min(400px, 50vw);
       max-height: min(300px, 40vh);
@@ -204,6 +209,7 @@
   </style>
 </head>
 <body>
+  <img src="logos/SSL.webp" alt="ssl" width="100" height="100"  class="center">
   <h1>⚡ SSL LOGO ⚡</h1>
 
   <!-- Menu Screen -->
@@ -217,9 +223,8 @@
 
     <label>🔄 Rounds:</label>
     <select id="rounds">
-      <option value="10">5 Rounds</option>
-      <option value="15">10 Rounds</option>
-      <option value="20">20 Rounds</option>
+      <option value="5">5 Rounds</option>
+      <option value="10">10 Rounds</option>
     </select>
 
     <label>⏳ Time Limit:</label>
